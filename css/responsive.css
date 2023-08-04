@@ -1,0 +1,9 @@
+@media only screen and (max-width: 800px) {
+
+	/* mobile friendly code */
+	
+	.section-footer {
+		height: 800px;
+	}
+
+}
