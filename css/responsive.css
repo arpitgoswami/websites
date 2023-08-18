@@ -154,6 +154,11 @@
   .home.label .row .content {
     display: block;
     width: 100%;
+    padding-top: 2rem;
+  }
+
+  .home.label .row .content:first-child {
+    padding-top: 4rem;
   }
 
   /* project section */
