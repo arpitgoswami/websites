@@ -1,4 +1,4 @@
-# Jacob Portofolio Website
+# Jacob Portfolio Website
 
 This website stands as a testament to my journey through the realms of web development, meticulously crafted using HTML, CSS, and unadulterated JavaScript. It encapsulates my dedication to the art of front-end design and the fusion of creativity with technical expertise.
 
