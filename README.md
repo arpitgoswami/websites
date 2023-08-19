@@ -12,4 +12,4 @@ Ultimately, this website is an invitation to delve into the confluence of design
 
 # Website Screenshot
 
-![screenshot](https://github.com/arpitgoswami/personalwebsite/assets/71710858/b3f1f44f-c059-4246-8722-ef848d78d14d)
+![Capture](https://github.com/arpitgoswami/websites/assets/71710858/2f54d5a2-5875-4b9d-9be2-322419390405)
