@@ -15,7 +15,7 @@ As you explore this repository, you'll witness a commitment to innovation, preci
 
 # All Releases
 
-* <a href="https://github.com/arpitgoswami/websites/releases/tag/v0.02">Lime </a>Lime Website - Alpha Release
+* 🔗 Lime Website - Alpha Release
 * Lime Website - Pre Alpha Release
 * Jacob Website - Fully Functional Release
 * Jacob Website - Alpha Release
