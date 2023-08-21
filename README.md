@@ -10,16 +10,16 @@ As you explore this repository, you'll witness a commitment to innovation, preci
 
 # All Branches
 
-* Jacob Portfolio Website
-* Lime Portfolio Website
+* <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
+* <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
 
 # All Releases
 
-* <a href="https://github.com/arpitgoswami/websites/releases/tag/v1.2">🔗</a>Lime Website - Alpha Release
-* Lime Website - Pre Alpha Release
-* Jacob Website - Fully Functional Release
-* Jacob Website - Alpha Release
-* Sample Pre-Alpha Release
+* <a href="https://github.com/arpitgoswami/websites/releases/tag/v1.2">Lime Website - Alpha Release</a>
+* <a href="https://github.com/arpitgoswami/websites/releases/tag/v0.20">Lime Website - Pre Alpha Release
+* <a href="https://github.com/arpitgoswami/websites/releases/tag/v1.10">Jacob Website - Fully Functional Release
+* <a href="https://github.com/arpitgoswami/websites/releases/tag/v1.00">Jacob Website - Alpha Release
+* <a href="https://github.com/arpitgoswami/websites/releases/tag/v0.02">Sample Pre-Alpha Release
 
 # Featured Website
 
