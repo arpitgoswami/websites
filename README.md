@@ -10,12 +10,12 @@ As you explore this repository, you'll witness a commitment to innovation, preci
 
 # All Branches
 
-* Jacob Portfolio Website
+* <a href="https://github.com/arpitgoswami/websites/releases/tag/v1.2">Abc</a>Jacob Portfolio Website
 * Lime Portfolio Website
 
 # All Releases
 
-* 🔗 Lime Website - Alpha Release
+* Lime Website - Alpha Release
 * Lime Website - Pre Alpha Release
 * Jacob Website - Fully Functional Release
 * Jacob Website - Alpha Release
