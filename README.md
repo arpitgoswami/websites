@@ -12,6 +12,7 @@ As you explore this repository, you'll witness a commitment to innovation, preci
 
 * <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
+* <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Website</a>
 
 # All Releases
 
