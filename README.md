@@ -15,13 +15,13 @@ As you explore this repository, you'll witness a commitment to innovation, preci
 ### Application Links
 1. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Application</a>
 
-## All Branches
+# All Branches
 
 * <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Website</a>
 
-## All Releases
+# All Releases
 
 * <a href="https://github.com/arpitgoswami/websites/releases/tag/v1.2">Lime Website - Alpha Release</a>
 * <a href="https://github.com/arpitgoswami/websites/releases/tag/v0.20">Lime Website - Pre Alpha Release
