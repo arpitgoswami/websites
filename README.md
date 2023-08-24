@@ -9,8 +9,8 @@ By harnessing the capabilities of APIs, incorporating captivating animations, an
 As you explore this repository, you'll witness a commitment to innovation, precision, and a deep understanding of the intricate interplay between technology and design. Thank you for considering this compilation—an embodiment of my journey and expertise in the realm of web development.
 
 ## Website Links
-1 <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
-2 <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
+1. <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
+2. <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
 
 ## Application Links
 
