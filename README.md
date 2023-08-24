@@ -13,6 +13,7 @@ As you explore this repository, you'll witness a commitment to innovation, preci
 2. <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
 
 ## Application Links
+1. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Application</a>
 
 ## All Branches
 
