@@ -1,4 +1,4 @@
-# Vanilla Weather Website
+# Vanilla Weather Application
 
 Welcome to Vanilla Weather, the perfect destination for those seeking instant and accurate weather information. Utilizing the combined power of JavaScript, HTML, and CSS, our website offers a streamlined experience for accessing real-time weather data for any city. With a focus on simplicity and effectiveness, Vanilla Weather ensures that you're always informed about the current weather conditions.
 
