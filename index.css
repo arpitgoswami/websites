@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.nav-icon {
+  display: none;
+}
+
+.btn {
+  color: black;
+  background: #fff;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.banner .background {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://source.unsplash.com/random/1920x1080/?wallpaper,landscape");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
+}
+
+.banner .content {
+  width: 50%;
+  text-shadow: 0px 0px 8px rgba(51, 51, 51, 0.6);
+}
+
+.banner .btn {
+  width: 10rem;
+  margin-top: 0;
+  text-shadow: none;
+}
+
+.banner .btn:hover {
+  opacity: 0.8;
+}
+
+.sub-banner .buttons a:last-child {
+  border: 0.1rem solid #7e22ce;
+}
+
+.show-animate .show-animate-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+}
+
+.show-animate .show-animate-content::before {
+  content: " ";
+  position: absolute;
+  background: #1e293b;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  animation: showRight 1s ease forwards;
+  animation-delay: calc(0.5s * var(--i));
+}
+
+@keyframes showRight {
+  100% {
+    width: 0;
+  }
+}

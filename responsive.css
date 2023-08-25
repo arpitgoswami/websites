@@ -1,0 +1,28 @@
+/* Extra Large (xl) */
+@media (max-width: 1280px) {
+  body {
+    font-size: 60%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav-icon {
+    display: block;
+  }
+
+  .banner .content {
+    width: auto;
+  }
+
+  .sub-banner .buttons {
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .sub-banner .buttons a {
+    width: 100%;
+  }
+}

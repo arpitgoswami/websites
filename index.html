@@ -1,343 +1,164 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <!-- Title-Tag-->
-      <title>Title-Here</title>
-      <!-- Meta-Tags -->
-      <meta charset="utf-8">
-      <meta name="description" content="description-here">
-      <meta name="keywords" content="keywords-here">
-      <meta name="author" content="author-here">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- PHP-Files -->
-      <?php include './php/script.php';?>
-      <?php include './php/require.php';?>
-      <!-- Style-Sheets -->
-      <link rel="stylesheet" type="text/css" href="./css/style.css">
-      <link rel="stylesheet" type="text/css" href="./css/index.css">
-      <link rel="stylesheet" type="text/css" href="./css/responsive.css">
-      <!-- Java-Script -->
-      <script type="text/javascript" src="./javascript/script.js"></script>
-      <script type="text/javascript" src="./javascript/require.js"></script>
-      <!-- Bootstrap -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <!-- Font-Awesome -->
-      <script src="https://kit.fontawesome.com/62bd52d120.js" crossorigin="anonymous"></script>
-   </head>
-   <body>
-      <div class="section-header">
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="https://preview.colorlib.com/theme/personal/img/logo.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav">
-                  <li class="nav-item active" >
-                     <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">SERVICES</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">PORTOFOLIO</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">ABOUT</a>
-                  </li>
-               </ul>
-            </div>
-         </nav>
+<!doctype html scroll-smooth>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <!-- Title-Tag-->
+  <title>Tailwind Website</title>
+
+  <!-- Meta-Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Style-Sheets -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <!-- Box-Icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Tail-Wind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Vanilla-JS -->
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+
+  <!-- header section -->
+  <section class="header show-animate">
+    <nav class="px-8 py-4 flex justify-between bg-slate-800 text-white items-center">
+      <span>
+        <h1 class="show-animate-content text-2xl font-semibold">Header.</h1>
+      </span>
+      <span class="space-x-8">
+        <a href="" class="show-animate-content nav-icon text-3xl cursor-pointer"><i class='bx bx-menu-alt-left'></i></a>
+        <a href="#home" class="show-animate-content nav" class="cursor-pointer">Home</a>
+        <a href="#about" class="show-animate-content nav" class="cursor-pointer">About</a>
+      </span>
+    </nav>
+  </section>
+
+  <!-- banner section -->
+  <section class="banner show-animate" id="home">
+    <div class="show-animate-content background" style="--i:2;">
+      <div class="content mx-8 py-40 text-white">
+        <div class="show-animate-content text-6xl font-bold" style="--i:4;">Simple and Minimal <br>
+          <div class="text-purple-700">Website.</div>
+        </div>
+        <div class="show-animate-content my-4 text-base" style="--i:5;">Lorem Ipsum is simply dummy text of the printing
+          and
+          typesetting industry. Lorem
+          Ipsum
+          has
+          been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+          and
+          scrambled it to make a type specimen book. It has survived not only five centuries.</div>
+        <div class="show-animate-content mt-6 flex space-x-4" style="--i:6;">
+          <div class="btn text-base">
+            <a href="https://tailwindcss.com"">Learn More</a></div>
+          <div class=" btn text-base"><a href="https://tailwindcss.com/blog">Contact Us</a>
+          </div>
+        </div>
       </div>
-      <div class="section-body">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <p>THIS IS ME</p>
-                  <p style="font-size: 60px; font-weight: 600;">PHILIP GILBERT</p>
-                  <p>You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.</p>
-                  <div class="primary-button">DISCOVER NOW</div>
-               </div>
-               <div class="col-md-6">
-                  <center>
-                     <img src="https://preview.colorlib.com/theme/personal/img/hero-img.png" style="height: auto; width: 70%;">
-                  </center>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <img src="https://preview.colorlib.com/theme/personal/img/about-img.png" style="height: auto; width: 100%;">
-               </div>
-               <div class="col-md-6">
-                  <p>ABOUT ME</p>
-                  <p style="font-size: 40px; font-weight: 600;">PERSONAL DETAILS</p>
-                  <p>Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                  <div class="primary-button">VIEW FULL DETAILS</div>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <center>
-                     <p style="font-size: 40px; font-weight: 600;">My Offered Services</p>
-                     <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
-                  </center>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <center>
-                     <br>
-                     <i></i>
-                     <p style="font-size: 30px; font-weight: 600;">Web Design</p>
-                     <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
-                  </center>
-               </div>
-               <div class="col-md-4">
-                  <center>
-                     <br>
-                     <i></i>
-                     <p style="font-size: 30px; font-weight: 600;">Web Development</p>
-                     <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
-                  </center>
-               </div>
-               <div class="col-md-4">
-                  <center>
-                     <br>
-                     <i></i>
-                     <p style="font-size: 30px; font-weight: 600;">Photography</p>
-                     <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
-                  </center>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <center>
-                     <br>
-                     <i></i>
-                     <p style="font-size: 30px; font-weight: 600;">Clipping Paths</p>
-                     <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
-                  </center>
-               </div>
-               <div class="col-md-4">
-                  <center>
-                     <br>
-                     <i></i>
-                     <p style="font-size: 30px; font-weight: 600;">Apps Interface</p>
-                     <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
-                  </center>
-               </div>
-               <div class="col-md-4">
-                  <center>
-                     <br>
-                     <i></i>
-                     <p style="font-size: 30px; font-weight: 600;">Graphic Design</p>
-                     <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
-                  </center>
-               </div>
-            </div>
-         </div>
-         <div class="sub-section" style="background-color: blueviolet; color: #fff;" >
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-3">
-                     <center>
-                        <p style="font-size: 40px; font-weight: 700;">2536</p>
-                        <p>Projects Completed</p>
-                     </center>
-                  </div>
-                  <div class="col-md-3">
-                     <center>
-                        <p style="font-size: 40px; font-weight: 700;">6784</p>
-                        <p>Happy Clients</p>
-                     </center>
-                  </div>
-                  <div class="col-md-3">
-                     <center>
-                        <p style="font-size: 40px; font-weight: 700;">2239</p>
-                        <p>Cups of Coffee</p>
-                     </center>
-                  </div>
-                  <div class="col-md-3">
-                     <center>
-                        <p style="font-size: 40px; font-weight: 700;">434</p>
-                        <p>Real Professionals</p>
-                     </center>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <center>
-                     <p style="font-size: 40px; font-weight: 600;">Our Latest Projects</p>
-                     <p>Who are in extremely love with eco friendly system.</p>
-                  </center>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <center>
-                     <div class="img">
-                        <img class="banner-img" src="https://preview.colorlib.com/theme/personal/img/p1.jpg">
-                        <div class="overlay">
-                           <div class="text"><i style="font-size: 80px;" class="fa-solid fa-binoculars"></i></div>
-                        </div>
-                     </div>
-                     <h3>2D Vinyl Design</h3>
-                     <p>vector</p>
-                  </center>
-               </div>
-               <div class="col-md-4">
-                  <center>
-                     <img class="banner-img" src="https://preview.colorlib.com/theme/personal/img/p2.jpg">
-                     <h3>2D Vinyl Design</h3>
-                     <p>vector</p>
-                  </center>
-               </div>
-               <div class="col-md-4">
-                  <center>
-                     <img class="banner-img" src="https://preview.colorlib.com/theme/personal/img/p3.jpg">
-                     <h3>2D Vinyl Design</h3>
-                     <p>vector</p>
-                  </center>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <center>
-                     <div class="img">
-                        <img class="banner-img" src="https://preview.colorlib.com/theme/personal/img/p4.jpg">
-                        <div class="overlay">
-                           <div class="text"><i style="font-size: 80px;" class="fa-solid fa-binoculars"></i></div>
-                        </div>
-                     </div>
-                     <h3>2D Vinyl Design</h3>
-                     <p>vector</p>
-                  </center>
-               </div>
-               <div class="col-md-4">
-                  <center>
-                     <img class="banner-img" src="https://preview.colorlib.com/theme/personal/img/p5.jpg">
-                     <h3>2D Vinyl Design</h3>
-                     <p>vector</p>
-                  </center>
-               </div>
-               <div class="col-md-4">
-                  <center>
-                     <img class="banner-img" src="https://preview.colorlib.com/theme/personal/img/p6.jpg">
-                     <h3>2D Vinyl Design</h3>
-                     <p>vector</p>
-                  </center>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <center>
-                     <p style="font-size: 40px; font-weight: 600;">Client's Feedback About Me</p>
-                     <p>It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person.</p>
-                  </center>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="review">
-                     <img src="https://preview.colorlib.com/theme/personal/img/elements/user2.png">
-                     <p>“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”</p>
-                     <h3>Harriet Maxwell</h3>
-                     <p>CEO at Maxwell</p>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="review">
-                     <img src="https://preview.colorlib.com/theme/personal/img/elements/user2.png">
-                     <p>“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”</p>
-                     <h3>Harriet Maxwell</h3>
-                     <p>CEO at Maxwell</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="sub-section">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <center>
-                        <p style="font-size: 40px; font-weight: 600;">Latest Posts From Our Blog</p>
-                        <p>You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving and expanding the business</p>
-                     </center>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-4">
-                     <img src="https://preview.colorlib.com/theme/personal/img/b1.jpg">
-                     <img src="https://preview.colorlib.com/theme/personal/img/elements/user2.png">
-                     <p>Mark Wiens</p>
-                     <p>13th Dec <i class="fa-regular fa-heart"></i> 15 <i class="fa-regular fa-comment"></i> 12</p>
-                     <hr>
-                     <br><br>
-                     <h3>BREAK THROUGH SELF DOUBT AND FEAR</h3>
-                     <p>Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
+    </div>
+  </section>
+
+  <!-- banner section -->
+  <section class="sub-banner" id="about">
+    <div class="text-center mx-8 pt-40 pb-16 ">
+      <h1 class="text-4xl xl:text-6xl font-bold">Accounting <span class="text-purple-700" id="element"></span>
+        for small businesses.
+      </h1>
+      <p class="my-4 text-base">Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off,
+        and
+        hope you don’t get
+        audited.</p>
+      <div class="buttons mt-6 space-x-4 text-base">
+        <a class="bg-purple-700 hover:bg-purple-700 text-white font-bold py-2 px-8 rounded-full cursor-pointer"
+          href="https://tailwindcss.com/docs/installation">
+          Get For Free
+        </a>
+        <a class="bg-transparent text-purple-700 font-bold py-2 px-8 rounded-full cursor-pointer"
+          href="https://www.youtube.com/tailwindlabs">
+          Watch Video
+        </a>
       </div>
-      <div class="carousel">
-         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <center><img class="d-block" src="https://preview.colorlib.com/theme/personal/img/l5.png" alt="First slide"></center>
-               </div>
-               <div class="carousel-item">
-                  <center><img class="d-block" src="https://preview.colorlib.com/theme/personal/img/l3.png" alt="Second slide"></center>
-               </div>
-               <div class="carousel-item">
-                  <center><img class="d-block" src="https://preview.colorlib.com/theme/personal/img/l1.png" alt="Third slide"></center>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-            </a>
-         </div>
+    </div>
+    <div class="mx-8 mt-20 mb-8 text-center">
+      <p class="mb-8 text-base">Trusted by these six companies so far</p>
+      <div class="flex xl:justify-center justify-between flex-wrap space-x-8">
+        <img src="https://salient.tailwindui.com/_next/static/media/transistor.7274e6c3.svg" alt="">
+        <img src="https://salient.tailwindui.com/_next/static/media/tuple.74eb0ae0.svg" alt="">
+        <img src="https://salient.tailwindui.com/_next/static/media/statickit.d7937794.svg" alt="">
+        <img src="https://salient.tailwindui.com/_next/static/media/mirage.18d2ec4e.svg" alt="">
+        <img src="https://salient.tailwindui.com/_next/static/media/laravel.7deed17e.svg" alt="">
+        <img src="https://salient.tailwindui.com/_next/static/media/statamic.6da5ebfb.svg" alt="">
       </div>
-      <div class="section-footer">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-5">
-                  <p style="font-size: 20px; font-weight: 600;">ABOUT ME</p>
-                  <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
-                  <p>Copyright ©2023 All rights reserved | This template is made with  by Colorlib</p>
-               </div>
-               <div class="col-md-4">
-                  <p style="font-size: 20px; font-weight: 600;">NEWSLETTER</p>
-                  <p>Stay updated with our latest trends</p>
-                  <form class="form-inline my-2 my-lg-0">
-                     <input class="form-control mr-sm-2" type="search" placeholder="Enter Email Address" aria-label="Search" style="border-radius: none;">
-                     <button class="btn btn-primary" type="submit" style="border-radius: none;"><i class="fa-solid fa-arrow-right"></i></button>
-                  </form>
-               </div>
-               <div class="col-md-3">
-                  <p style="font-size: 20px; font-weight: 600;">FOLLOW ME</p>
-                  <p>Stay connected with me on social media.</p>
-                  <p></p>
-               </div>
-            </div>
-         </div>
+    </div>
+  </section>
+
+  <!-- Parallax section -->
+  <section class="parallax">
+    <div class="m-16 mx-auto h-100 max-w-4xl overflow-y-scroll bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
+      style="background-image:url('https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp');">
+      <div class="mt-40">
+        <div class="bg-white p-4">
+          <div class="mx-8 font-inter text-2xl font-extrabold tracking-tight text-black">
+            Majestic peaks, nature's embrace.
+          </div>
+          <div class="mx-8 mt-1 text-sm font-medium text-slate-500">
+            Adventure calls, conquer mountain trails.
+          </div>
+          <p class="mx-8 mt-4 leading-7 text-slate-500">
+            In the realm of towering mountains, where the air is crisp and
+            the vistas stretch endlessly, one finds solace, exhilaration,
+            and a profound connection with the untamed beauty of the natural
+            world.
+          </p>
+          <p class="mx-8 mt-4 leading-7 text-slate-500">
+            As the sun rises over the rugged peaks, casting a golden glow on
+            the majestic landscape, a sense of awe fills the heart,
+            reminding us of the grandeur and power that reside in the
+            mountains.
+          </p>
+        </div>
       </div>
-   </body>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <section class="footer">
+    <div class="bg-purple-700 h-1"></div>
+    <div class="px-8  py-8 bg-slate-800 text-white">
+      <div class="flex flex-wrap justify-between">
+        <div>
+          <div class="text-2xl">Footer Tailwind</div>
+          <div class="mt-2 text-base">The reward for getting on the stage is fame.</div>
+          <nav class="mt-2 mb-8 text-base flex items-center space-x-3.5">
+            <a href="#">About</a>
+            <a href="#">Carrers</a>
+            <a href="#">Press</a>
+            <a href="#">Blog</a>
+            <a href="#">Pricing</a>
+          </nav>
+        </div>
+        <div>
+          <div class="text-2xl">Get the app</div>
+          <a href="https://play.google.com/store/apps">
+            <div class="btn text-base"><i class='bx bxl-google mr-1 text-lg'></i> Play Store</div>
+          </a>
+          <a href="https://www.apple.com/in/app-store/">
+            <div class="btn text-base"><i class='bx bxl-apple mr-1 text-lg'></i> App Store</div>
+          </a>
+        </div>
+      </div>
+      <hr class="my-8">
+      <div class="text-base">@ 2023 Creative Tim<sup>TM</sup>. All Rights Reserved</div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</body>
+
 </html>
