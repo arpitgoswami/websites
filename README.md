@@ -24,10 +24,10 @@ Above are links that are connected to the internet, and all the listed websites 
 
 * <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
-* <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Website</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/tailwind-website">Tailwind Website</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/vanilla-crypto-app">Vanilla Crypto Application</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/vanilla-image-app">Vanilla Image Application</a>
+* <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Website</a>
 
 # All Releases
 
