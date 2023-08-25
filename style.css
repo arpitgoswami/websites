@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins&display=swap");
+
+:root {
+  --background: #39297b;
+  --text-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 0.05rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem auto 2rem;
+  font-weight: 600;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  height: 6rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+
+.warning {
+  text-align: center;
+  margin-top: 2rem;
+  display: none;
+}
+
+form input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  padding: 0 30px;
+}
+
+form button {
+  padding: 0 40px;
+  height: 100%;
+  background: #ff3929;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  border: 0;
+  outline: 0;
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+
+#show-more-btn {
+  background: #ff3929;
+  color: var(--text-color);
+  outline: 0;
+  border: 0;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  display: none;
+  margin: 2rem auto 4rem;
+}
+
+#search-result {
+  width: 80%;
+  margin: 4rem auto 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+#search-result img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  transform: translateX(-200rem);
+  animation: animate 0.5s linear forwards;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+#search-result img:hover {
+  transform: translateY(-0.5rem) !important;
+  filter: saturate(50%);
+  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.75);
+}
+
+#search-result img:active {
+  transform: scale(0.8);
+}
+
+@keyframes animate {
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+@media (max-width: 768px) {
+  #search-result {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    font-size: 80%;
+  }
+
+  form input,
+  form button,
+  ::placeholder {
+    font-size: 0.8rem;
+  }
+
+  form {
+    height: 4rem;
+  }
+}
