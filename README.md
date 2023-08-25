@@ -6,6 +6,8 @@ As you navigate through our site, you'll notice the striking visuals that are ma
 
 The magic doesn't stop there. The website comes to life with the dynamic animations and transitions powered by Vanilla JS and Typed.js. Watch as content gracefully fades in, smoothly scrolls, and elegantly types out, creating an interactive and delightful journey for every visitor.
 
+Whether you're a casual browser or a dedicated enthusiast, our website caters to all. Whether you're seeking artistic inspiration, educational resources, or a moment of relaxation, our thoughtfully designed interface aims to make your experience as enjoyable as possible.
+
 # Website Screenshot
 
 ![FireShot Capture 004 - Tailwind Website - ](https://github.com/arpitgoswami/websites/assets/71710858/ffdf7c2d-90ae-4e40-965d-2b076bbd3a4f)
