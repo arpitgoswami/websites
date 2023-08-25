@@ -1,4 +1,4 @@
-# Tailwin-Css Website
+# Tailwind-Css Website
 
 Explore a visually stunning website crafted with the perfect blend of modern web technologies. Immerse yourself in a seamless fusion of Tailwind CSS, CSS3, and HTML5, bringing you an elegant and intuitive user interface that adapts flawlessly to every screen size.
 
