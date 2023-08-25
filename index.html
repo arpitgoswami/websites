@@ -1,164 +1,82 @@
-<!doctype html scroll-smooth>
-<html lang="en" class="scroll-smooth">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <!-- Title-Tag-->
-  <title>Tailwind Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Website Design</title>
 
-  <!-- Meta-Tags -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-  <!-- Style-Sheets -->
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="responsive.css">
-
-  <!-- Box-Icons -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-  <!-- Tail-Wind -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Vanilla-JS -->
-  <script defer src="main.js"></script>
 </head>
 
 <body>
 
-  <!-- header section -->
-  <section class="header show-animate">
-    <nav class="px-8 py-4 flex justify-between bg-slate-800 text-white items-center">
-      <span>
-        <h1 class="show-animate-content text-2xl font-semibold">Header.</h1>
-      </span>
-      <span class="space-x-8">
-        <a href="" class="show-animate-content nav-icon text-3xl cursor-pointer"><i class='bx bx-menu-alt-left'></i></a>
-        <a href="#home" class="show-animate-content nav" class="cursor-pointer">Home</a>
-        <a href="#about" class="show-animate-content nav" class="cursor-pointer">About</a>
-      </span>
-    </nav>
-  </section>
+    <div class="container">
+        <nav>
+            <img src="./images/logo.png" class="logo" alt="">
+            <ul>
+                <li><a href="https://www.coingecko.com">Market</a></li>
+                <li><a
+                        href="https://www.geckoterminal.com/?utm_source=coingecko&utm_medium=referral&utm_campaign=desktop_navigation">Features</a>
+                </li>
+                <li><a href="https://www.coingecko.com/en/glossary/whitepaper">White Papers</a></li>
+                <li><a href="https://www.coingecko.com/en/about">About Us</a></li>
+            </ul>
+            <div class="dropdown">
+                <button class="dropbtn"><i class='bx bx-menu'></i></button>
+                <div class="dropdown-content">
+                    <a href="https://www.coingecko.com">Market</a>
+                    <a
+                        href="https://www.geckoterminal.com/?utm_source=coingecko&utm_medium=referral&utm_campaign=desktop_navigation">Features</a>
 
-  <!-- banner section -->
-  <section class="banner show-animate" id="home">
-    <div class="show-animate-content background" style="--i:2;">
-      <div class="content mx-8 py-40 text-white">
-        <div class="show-animate-content text-6xl font-bold" style="--i:4;">Simple and Minimal <br>
-          <div class="text-purple-700">Website.</div>
-        </div>
-        <div class="show-animate-content my-4 text-base" style="--i:5;">Lorem Ipsum is simply dummy text of the printing
-          and
-          typesetting industry. Lorem
-          Ipsum
-          has
-          been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-          and
-          scrambled it to make a type specimen book. It has survived not only five centuries.</div>
-        <div class="show-animate-content mt-6 flex space-x-4" style="--i:6;">
-          <div class="btn text-base">
-            <a href="https://tailwindcss.com"">Learn More</a></div>
-          <div class=" btn text-base"><a href="https://tailwindcss.com/blog">Contact Us</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                    <a href="https://www.coingecko.com/en/glossary/whitepaper">White Papers</a>
+                    <a href="https://www.coingecko.com/en/about">About Us</a>
+                </div>
+            </div>
+        </nav>
 
-  <!-- banner section -->
-  <section class="sub-banner" id="about">
-    <div class="text-center mx-8 pt-40 pb-16 ">
-      <h1 class="text-4xl xl:text-6xl font-bold">Accounting <span class="text-purple-700" id="element"></span>
-        for small businesses.
-      </h1>
-      <p class="my-4 text-base">Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off,
-        and
-        hope you don’t get
-        audited.</p>
-      <div class="buttons mt-6 space-x-4 text-base">
-        <a class="bg-purple-700 hover:bg-purple-700 text-white font-bold py-2 px-8 rounded-full cursor-pointer"
-          href="https://tailwindcss.com/docs/installation">
-          Get For Free
-        </a>
-        <a class="bg-transparent text-purple-700 font-bold py-2 px-8 rounded-full cursor-pointer"
-          href="https://www.youtube.com/tailwindlabs">
-          Watch Video
-        </a>
-      </div>
-    </div>
-    <div class="mx-8 mt-20 mb-8 text-center">
-      <p class="mb-8 text-base">Trusted by these six companies so far</p>
-      <div class="flex xl:justify-center justify-between flex-wrap space-x-8">
-        <img src="https://salient.tailwindui.com/_next/static/media/transistor.7274e6c3.svg" alt="">
-        <img src="https://salient.tailwindui.com/_next/static/media/tuple.74eb0ae0.svg" alt="">
-        <img src="https://salient.tailwindui.com/_next/static/media/statickit.d7937794.svg" alt="">
-        <img src="https://salient.tailwindui.com/_next/static/media/mirage.18d2ec4e.svg" alt="">
-        <img src="https://salient.tailwindui.com/_next/static/media/laravel.7deed17e.svg" alt="">
-        <img src="https://salient.tailwindui.com/_next/static/media/statamic.6da5ebfb.svg" alt="">
-      </div>
-    </div>
-  </section>
 
-  <!-- Parallax section -->
-  <section class="parallax">
-    <div class="m-16 mx-auto h-100 max-w-4xl overflow-y-scroll bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
-      style="background-image:url('https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp');">
-      <div class="mt-40">
-        <div class="bg-white p-4">
-          <div class="mx-8 font-inter text-2xl font-extrabold tracking-tight text-black">
-            Majestic peaks, nature's embrace.
-          </div>
-          <div class="mx-8 mt-1 text-sm font-medium text-slate-500">
-            Adventure calls, conquer mountain trails.
-          </div>
-          <p class="mx-8 mt-4 leading-7 text-slate-500">
-            In the realm of towering mountains, where the air is crisp and
-            the vistas stretch endlessly, one finds solace, exhilaration,
-            and a profound connection with the untamed beauty of the natural
-            world.
-          </p>
-          <p class="mx-8 mt-4 leading-7 text-slate-500">
-            As the sun rises over the rugged peaks, casting a golden glow on
-            the majestic landscape, a sense of awe fills the heart,
-            reminding us of the grandeur and power that reside in the
-            mountains.
-          </p>
+        <div class="content">
+            <img src="./images/blockchain.gif" class="img">
+            <h1>BUY & SELL <br><span>Crypto</span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged.</p>
+            <a href="https://www.coingecko.com" class="btn">EXPLORE MORE</a>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- footer section -->
-  <section class="footer">
-    <div class="bg-purple-700 h-1"></div>
-    <div class="px-8  py-8 bg-slate-800 text-white">
-      <div class="flex flex-wrap justify-between">
-        <div>
-          <div class="text-2xl">Footer Tailwind</div>
-          <div class="mt-2 text-base">The reward for getting on the stage is fame.</div>
-          <nav class="mt-2 mb-8 text-base flex items-center space-x-3.5">
-            <a href="#">About</a>
-            <a href="#">Carrers</a>
-            <a href="#">Press</a>
-            <a href="#">Blog</a>
-            <a href="#">Pricing</a>
-          </nav>
+        <div class="coin-list">
+            <div class="coin">
+                <img src="./images/bitcoin.png" alt="">
+                <div>
+                    <h3 id="bitcoin">$00</h3>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+
+            <div class="coin">
+                <img src="./images/ethereum.png" alt="">
+                <div>
+                    <h3 id="ethereum">$00</h3>
+                    <p>Ethereum</p>
+                </div>
+            </div>
+
+            <div class="coin">
+                <img src="./images/dogecoin.png" alt="">
+                <div>
+                    <h3 id="dogecoin">$00</h3>
+                    <p>Dogecoin</p>
+                </div>
+            </div>
         </div>
-        <div>
-          <div class="text-2xl">Get the app</div>
-          <a href="https://play.google.com/store/apps">
-            <div class="btn text-base"><i class='bx bxl-google mr-1 text-lg'></i> Play Store</div>
-          </a>
-          <a href="https://www.apple.com/in/app-store/">
-            <div class="btn text-base"><i class='bx bxl-apple mr-1 text-lg'></i> App Store</div>
-          </a>
-        </div>
-      </div>
-      <hr class="my-8">
-      <div class="text-base">@ 2023 Creative Tim<sup>TM</sup>. All Rights Reserved</div>
+
     </div>
-  </section>
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
 </body>
 
 </html>
