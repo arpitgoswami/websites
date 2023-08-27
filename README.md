@@ -8,10 +8,25 @@ By harnessing the capabilities of APIs, incorporating captivating animations, an
 
 As you explore this repository, you'll witness a commitment to innovation, precision, and a deep understanding of the intricate interplay between technology and design. Thank you for considering this compilation—an embodiment of my journey and expertise in the realm of web development.
 
+### Website Links
+1. <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
+2. <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
+3. <a href="https://github.com/arpitgoswami/websites/tree/tailwind-website">Tailwind Website</a>
+
+### Application Links
+1. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Application</a>
+2. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-crypto-app">Vanilla Crypto Application</a>
+3. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-image-app">Vanilla Image Application</a>
+
+Above are links that are connected to the internet, and all the listed websites and applications are online. All of them are hosted on a low-bandwidth cloud platform, which is DigitalOcean as well as al of these websites have been created using just simple HTML5, CSS3, and Vanilla JS without any external framework usage.
+
 # All Branches
 
 * <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
+* <a href="https://github.com/arpitgoswami/websites/tree/tailwind-website">Tailwind Website</a>
+* <a href="https://github.com/arpitgoswami/websites/tree/vanilla-crypto-app">Vanilla Crypto Application</a>
+* <a href="https://github.com/arpitgoswami/websites/tree/vanilla-image-app">Vanilla Image Application</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Website</a>
 
 # All Releases
