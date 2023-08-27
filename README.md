@@ -12,7 +12,7 @@ As you explore this repository, you'll witness a commitment to innovation, preci
 1. <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
 2. <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
 3. <a href="https://github.com/arpitgoswami/websites/tree/tailwind-website">Tailwind Website</a>
-4. <a href="https://github.com/arpitgoswami/websites/tree/tailwind-website">Bootstrap Website</a>
+4. <a href="https://github.com/arpitgoswami/websites/tree/bootstrap-website">Bootstrap Website</a>
 
 ### Application Links
 1. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Application</a>
@@ -29,7 +29,7 @@ Above are links that are connected to the internet, and all the listed websites 
 * <a href="https://github.com/arpitgoswami/websites/tree/vanilla-crypto-app">Vanilla Crypto Application</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/vanilla-image-app">Vanilla Image Application</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Website</a>
-* <a href="https://github.com/arpitgoswami/websites/tree/tailwind-website">Bootstrap Website</a>
+* <a href="https://github.com/arpitgoswami/websites/tree/bootstrap-website">Bootstrap Website</a>
 
 # All Releases
 
