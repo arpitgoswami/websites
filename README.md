@@ -1,44 +1,13 @@
-# Websites
+# Sahara Website
 
-Discover a meticulously curated compilation highlighting my prowess in web development. Within this repository, I present a series of bespoke websites meticulously crafted using HTML, CSS, and vanilla JavaScript. These creations are seamlessly fused with an array of advanced technologies to deliver exceptional digital experiences.
+Welcome to our website, where the seamless synergy of HTML5 and CSS3 brings you a captivating and user-centric online experience. From its clean and structured layout to its responsive design, our website embodies the best of modern web development.
 
-Immerse yourself in a collection that goes beyond conventional web design. Each website is a testament to my dedication to the craft, reflecting both technical finesse and an artistic sensibility. Responsive and adaptable, some of these websites ensure a flawless user experience across an array of devices and screen sizes.
+### Striking the Balance
+This website is a testament to the harmonious fusion of HTML5's structural prowess and CSS3's styling capabilities. HTML5's semantic elements provide a clear and organized framework for our content, enhancing accessibility and search engine optimization. CSS3's versatile styling options then elevate the visual appeal, creating a captivating and cohesive aesthetic.
 
-By harnessing the capabilities of APIs, incorporating captivating animations, and implementing fluid transitions, I've transformed these websites into dynamic and engaging platforms. While the primary purpose of this repository is intrinsic, it also serves as a comprehensive portfolio, offering a glimpse into my capabilities for potential collaborations and opportunities.
+### Responsive at Its Core
+Embracing the demands of today's diverse digital landscape, our website takes responsiveness seriously. Thanks to CSS3's media queries, our design adapts seamlessly to devices of all sizes. Whether you're on a desktop, tablet, or smartphone, the user experience remains consistent, ensuring optimal readability and functionality.
 
-As you explore this repository, you'll witness a commitment to innovation, precision, and a deep understanding of the intricate interplay between technology and design. Thank you for considering this compilation—an embodiment of my journey and expertise in the realm of web development.
+# Website Screenshot
 
-### Website Links
-1. <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
-2. <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
-3. <a href="https://github.com/arpitgoswami/websites/tree/tailwind-website">Tailwind Website</a>
-4. <a href="https://github.com/arpitgoswami/websites/tree/bootstrap-website">Bootstrap Website</a>
-
-### Application Links
-1. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Application</a>
-2. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-crypto-app">Vanilla Crypto Application</a>
-3. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-image-app">Vanilla Image Application</a>
-
-Above are links that are connected to the internet, and all the listed websites and applications are online. All of them are hosted on a low-bandwidth cloud platform, which is DigitalOcean as well as al of these websites have been created using just simple HTML5, CSS3, and Vanilla JS without any external framework usage.
-
-# All Branches
-
-* <a href="https://github.com/arpitgoswami/websites/tree/jacob-portfolio-website">Jacob Portfolio Website</a>
-* <a href="https://github.com/arpitgoswami/websites/tree/lime-portfolio-website">Lime Portfolio Website</a>
-* <a href="https://github.com/arpitgoswami/websites/tree/tailwind-website">Tailwind Website</a>
-* <a href="https://github.com/arpitgoswami/websites/tree/vanilla-crypto-app">Vanilla Crypto Application</a>
-* <a href="https://github.com/arpitgoswami/websites/tree/vanilla-image-app">Vanilla Image Application</a>
-* <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Website</a>
-* <a href="https://github.com/arpitgoswami/websites/tree/bootstrap-website">Bootstrap Website</a>
-
-# All Releases
-
-* <a href="https://github.com/arpitgoswami/websites/releases/tag/v1.2">Lime Website - Alpha Release</a>
-* <a href="https://github.com/arpitgoswami/websites/releases/tag/v0.20">Lime Website - Pre Alpha Release
-* <a href="https://github.com/arpitgoswami/websites/releases/tag/v1.10">Jacob Website - Fully Functional Release
-* <a href="https://github.com/arpitgoswami/websites/releases/tag/v1.00">Jacob Website - Alpha Release
-* <a href="https://github.com/arpitgoswami/websites/releases/tag/v0.02">Sample Pre-Alpha Release
-
-# Featured Website
-
-![Capture](https://github.com/arpitgoswami/websites/assets/71710858/2f54d5a2-5875-4b9d-9be2-322419390405)
+![FireShot Capture 009 - Sahara Website - ](https://github.com/arpitgoswami/websites/assets/71710858/97b321af-0ae9-48b5-b993-3d35c11f33b6)
