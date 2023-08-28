@@ -1,316 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bootstrap-Site</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="./css/style.css">
+
+	<!-- Title-Tag-->
+	<title>Sahara Website</title>
+
+	<!-- Meta-Tags -->
+	<meta charset="utf-8">
+	<meta name="description" content="description-here">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Style-Sheets -->
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light"
-		style="position: fixed; width: 100%; top: 0; z-index: 100;">
-		<div class="container">
-			<a class="navbar-brand" href="#"><img src="https://preview.colorlib.com/theme/personal/img/logo.png"
-					alt="Logo"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#first">HOME <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#services">SERVICES</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#projects">PROJECTS</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#second">ABOUT</a>
-					</li>
+	<div class="container">
+		<div class="navbar">
+			<img src="./css/images/logo.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">REGION</a></li>
+					<li><a href="">ABOUT</a></li>
 				</ul>
-			</div>
+			</nav>
+			<img src="./css/images/menu.png" class="menu-icon">
 		</div>
-	</nav>
 
-	<!-- Hero Section -->
-	<div class="space"></div>
-	<section class="section-body" id="first" style="margin-top: 5rem;">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<p>THIS IS ME</p>
-					<p class="display-4 font-weight-bold">PHILIP GILBERT</p>
-					<p>You will begin to realize why this exercise is called the Dickens Pattern with reference to the
-						ghost showing Scrooge some different futures.</p>
-					<a href="#services" class="btn btn-primary">DISCOVER NOW</a>
-				</div>
-				<div class="col-md-6">
-					<center>
-						<img src="https://preview.colorlib.com/theme/personal/img/hero-img.png" class="img-fluid"
-							alt="Hero Image">
-					</center>
-				</div>
+		<div class="row">
+			<div class="col">
+				<h1>Sahara</h1>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+					and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+				<a href="#explore"><button type="button">EXPLORE</button></a>
 			</div>
-		</div>
-	</section>
-
-	<!-- About Section -->
-	<div class="space"></div>
-	<section class="section-body bg-light" style="padding-top: 4rem; padding-bottom: 4rem;" id="second">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<img src="https://preview.colorlib.com/theme/personal/img/about-img.png" class="img-fluid"
-						alt="About Image">
+			<div class="col" id="explore">
+				<div class="card card1">
+					<h5>Western Desert</h5>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 				</div>
-				<div class="col-md-6">
-					<p>ABOUT ME</p>
-					<p class="display-4 font-weight-bold">PERSONAL DETAILS</p>
-					<p>Here, I focus on a range of items and features that we use in life without giving them a second
-						thought. such as Coca-Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco.</p>
-					<a href="#services" class="btn btn-primary">VIEW FULL DETAILS</a>
+				<div class="card card2">
+					<h5>AI Bagawat</h5>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+				</div>
+				<div class="card card3">
+					<h5>Pyramid of Giza</h5>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+				</div>
+				<div class="card card4">
+					<h5>Kalahari Desert</h5>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
-	<!-- Services Section -->
-	<section class="section-body" id="services">
-		<div class="space"></div>
-		<section class="section-body">
-			<div class="container">
-				<div class="text-center mb-5">
-					<p class="display-4 font-weight-bold">My Offered Services</p>
-					<p>At about this time of year, some months after New Year’s resolutions have been made and kept, or
-						made and neglected.</p>
-				</div>
-				<div class="space-small"></div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="text-center">
-							<i class="fas fa-code fa-3x"></i>
-							<p class="h2 font-weight-bold">Web Design</p>
-							<p>At about this time of year, some months after New Year’s resolutions have been made and
-								kept,
-								or made and neglected.</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="text-center">
-							<i class="fas fa-laptop fa-3x"></i>
-							<p class="h2 font-weight-bold">Web Development</p>
-							<p>At about this time of year, some months after New Year’s resolutions have been made and
-								kept,
-								or made and neglected.</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="text-center">
-							<i class="fas fa-camera fa-3x"></i>
-							<p class="h2 font-weight-bold">Photography</p>
-							<p>At about this time of year, some months after New Year’s resolutions have been made and
-								kept,
-								or made and neglected.</p>
-						</div>
-					</div>
-				</div>
-				<div class="space-small"></div>
-				<div class="row mt-4">
-					<div class="col-md-4">
-						<div class="text-center">
-							<i class="fas fa-cut fa-3x"></i>
-							<p class="h2 font-weight-bold">Clipping Paths</p>
-							<p>At about this time of year, some months after New Year’s resolutions have been made and
-								kept,
-								or made and neglected.</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="text-center">
-							<i class="fas fa-mobile-alt fa-3x"></i>
-							<p class="h2 font-weight-bold">Apps Interface</p>
-							<p>At about this time of year, some months after New Year’s resolutions have been made and
-								kept,
-								or made and neglected.</p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="text-center">
-							<i class="fas fa-paint-brush fa-3x"></i>
-							<p class="h2 font-weight-bold">Graphic Design</p>
-							<p>At about this time of year, some months after New Year’s resolutions have been made and
-								kept,
-								or made and neglected.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Statistics Section -->
-		<div class="space"></div>
-		<section class="section-body bg-info text-white py-5">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-md-3">
-						<p class="display-4 font-weight-bold">2536</p>
-						<p>Projects Completed</p>
-					</div>
-					<div class="col-md-3">
-						<p class="display-4 font-weight-bold">6784</p>
-						<p>Happy Clients</p>
-					</div>
-					<div class="col-md-3">
-						<p class="display-4 font-weight-bold">2239</p>
-						<p>Cups of Coffee</p>
-					</div>
-					<div class="col-md-3">
-						<p class="display-4 font-weight-bold">434</p>
-						<p>Real Professionals</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Projects Section -->
-		<div class="space"></div>
-		<section class="section-body" id="projects">
-			<div class="container">
-				<div class="text-center mb-5">
-					<p class="display-4 font-weight-bold">Our Latest Projects</p>
-					<p>Who are in extremely love with eco-friendly system.</p>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="img-overlay">
-							<img src="https://preview.colorlib.com/theme/personal/img/p1.jpg" class="img-fluid"
-								alt="Project 1">
-							<div class="overlay">
-								<i class="fas fa-binoculars fa-5x"></i>
-							</div>
-						</div>
-						<h3 class="mt-4">2D Vinyl Design</h3>
-						<p>Vector</p>
-					</div>
-					<div class="col-md-4">
-						<img src="https://preview.colorlib.com/theme/personal/img/p2.jpg" class="img-fluid"
-							alt="Project 2">
-						<h3 class="mt-4">2D Vinyl Design</h3>
-						<p>Vector</p>
-					</div>
-					<div class="col-md-4">
-						<img src="https://preview.colorlib.com/theme/personal/img/p3.jpg" class="img-fluid"
-							alt="Project 3">
-						<h3 class="mt-4">2D Vinyl Design</h3>
-						<p>Vector</p>
-					</div>
-				</div>
-				<div class="row mt-4">
-					<div class="col-md-4">
-						<div class="img-overlay">
-							<img src="https://preview.colorlib.com/theme/personal/img/p4.jpg" class="img-fluid"
-								alt="Project 4">
-						</div>
-						<h3 class="mt-4">2D Vinyl Design</h3>
-						<p>Vector</p>
-					</div>
-					<div class="col-md-4">
-						<img src="https://preview.colorlib.com/theme/personal/img/p5.jpg" class="img-fluid"
-							alt="Project 5">
-						<h3 class="mt-4">2D Vinyl Design</h3>
-						<p>Vector</p>
-					</div>
-					<div class="col-md-4">
-						<img src="https://preview.colorlib.com/theme/personal/img/p6.jpg" class="img-fluid"
-							alt="Project 6">
-						<h3 class="mt-4">2D Vinyl Design</h3>
-						<p>Vector</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Testimonials Section -->
-		<div class="space"></div>
-		<section class="section-body bg-light" style="padding-top: 4rem; padding-bottom: 4rem;">
-			<div class="container">
-				<div class="text-center mb-5">
-					<p class="display-4 font-weight-bold">Client's Feedback About Me</p>
-					<p>It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or
-						even a
-						person.</p>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="review text-center">
-							<img src="https://preview.colorlib.com/theme/personal/img/elements/user2.png"
-								class="img-fluid" alt="User 1">
-							<p>“It is not because things are difficult that we do not dare; it is because we do not dare
-								that they are difficult.”</p>
-							<h3>Harriet Maxwell</h3>
-							<p>CEO at Maxwell</p>
-						</div>
-					</div>
-					<div class="col-md-6" id="second-review">
-						<div class="review text-center">
-							<img src="https://preview.colorlib.com/theme/personal/img/elements/user2.png"
-								class="img-fluid" alt="User 2">
-							<p>“It is not because things are difficult that we do not dare; it is because we do not dare
-								that they are difficult.”</p>
-							<h3>Harriet Maxwell</h3>
-							<p>CEO at Maxwell</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Footer Section -->
-		<div class="space"></div>
-		<section class="section-footer bg-dark text-white py-5" id="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5" style="margin-bottom: 2rem;">
-						<p class="h4 font-weight-bold">ABOUT ME</p>
-						<p>At about this time of year, some months after New Year’s resolutions have been made and kept,
-							or
-							made and neglected.</p>
-						<p>&copy; 2023 All rights reserved | This template is made with by Colorlib</p>
-					</div>
-					<div class="col-md-4" style="margin-bottom: 2rem;">
-						<p class="h4 font-weight-bold">NEWSLETTER</p>
-						<p>Stay updated with our latest trends</p>
-						<form class="form-inline my-2 my-lg-0">
-							<input class="form-control mr-sm-2" type="search" placeholder="Enter Email Address"
-								aria-label="Search">
-							<button class="btn btn-primary my-2 my-sm-0" type="submit"><i
-									class='bx bxs-right-arrow'></i></button>
-						</form>
-					</div>
-					<div class="col-md-3" style="margin-bottom: 2rem;">
-						<p class="h4 font-weight-bold">FOLLOW ME</p>
-						<p>Stay connected with me on social media.</p>
-						<!-- Add social media icons or links here -->
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Optional: JavaScript -->
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
