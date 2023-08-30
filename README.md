@@ -14,6 +14,7 @@ As you explore this repository, you'll witness a commitment to innovation, preci
 3. <a href="https://github.com/arpitgoswami/websites/tree/tailwind-website">Tailwind Website</a>
 4. <a href="https://github.com/arpitgoswami/websites/tree/bootstrap-website">Bootstrap Website</a>
 5. <a href="https://github.com/arpitgoswami/websites/tree/sahara-website">Sahara Website</a>
+6. <a href="https://github.com/arpitgoswami/websites/tree/music-website">Music Website</a>
 
 ### Application Links
 1. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Application</a>
@@ -32,6 +33,7 @@ Above are links that are connected to the internet, and all the listed websites 
 * <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Website</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/bootstrap-website">Bootstrap Website</a>
 * <a href="https://github.com/arpitgoswami/websites/tree/sahara-website">Sahara Website</a>
+* <a href="https://github.com/arpitgoswami/websites/tree/music-website">Music Website</a>
 
 # All Releases
 
