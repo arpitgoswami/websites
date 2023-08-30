@@ -3,67 +3,175 @@
 
 <head>
 
-	<!-- Title-Tag-->
-	<title>Sahara Website</title>
+  <!-- Title-Tag-->
+  <title>Youtube Music Converter</title>
 
-	<!-- Meta-Tags -->
-	<meta charset="utf-8">
-	<meta name="description" content="description-here">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Meta-Tags -->
+  <meta charset="utf-8">
+  <meta name="description" content="description-here">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Style-Sheets -->
-	<link rel="stylesheet" type="text/css" href="./css/index.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-	<!-- Font -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Font-Awesome -->
+  <script src="https://kit.fontawesome.com/3f177a8d88.js" crossorigin="anonymous"></script>
+
+  <!-- Style -->
+  <style>
+    .space {
+      padding-top: 4rem;
+    }
+
+    @media (max-width: 575px) {
+      #margin {
+        margin-top: 1rem;
+      }
+    }
+  </style>
 
 </head>
 
 <body>
 
-	<div class="container">
-		<div class="navbar">
-			<img src="./css/images/logo.png" class="logo">
-			<nav>
-				<ul>
-					<li><a href="">HOME</a></li>
-					<li><a href="">REGION</a></li>
-					<li><a href="">ABOUT</a></li>
-				</ul>
-			</nav>
-			<img src="./css/images/menu.png" class="menu-icon">
-		</div>
+  <div class="section-header" style="position: sticky; top: 0; z-index: 100;">
+    <nav class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #252525; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-staff-snake"></i> <b>Covra-Music</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        style="color: #fff;">
+        <i class="fa-solid fa-bars"></i>
+      </button>
 
-		<div class="row">
-			<div class="col">
-				<h1>Sahara</h1>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-					and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-				<a href="#explore"><button type="button">EXPLORE</button></a>
-			</div>
-			<div class="col" id="explore">
-				<div class="card card1">
-					<h5>Western Desert</h5>
-					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-				</div>
-				<div class="card card2">
-					<h5>AI Bagawat</h5>
-					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-				</div>
-				<div class="card card3">
-					<h5>Pyramid of Giza</h5>
-					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-				</div>
-				<div class="card card4">
-					<h5>Kalahari Desert</h5>
-					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <div class="section-body">
+    <div class="section-body-banner"
+      style="background: #c02425; /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #c02425, #f0cb35); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to right, #c02425, #f0cb35); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
+      <div class="space"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" style="color: #fff; font-size: 300%;">
+            <p><b>Download Music Anywhere.</b></p>
+            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</h6>
+            <a href="https://in15.y2mates.com"><button class="btn btn-light">Sign Up</button></a>
+          </div>
+
+          <div class="col-md-6" style="color: #fff;">
+            <div class="space"></div>
+            <div class="form-group">
+              <label class="text-weight"><b>Online Videos Link:</b></label>
+              <input type="txt" name="link" placeholder="https://youtu.be/example .." class="form-control link"
+                required>
+              <br>
+              <label class="text-weight"><b>Select Video Format:</b></label>
+              <select class="form-control formte" required>
+                <option value="mp3">Mp3 320 Kbps</option>
+                <option value="mp4a">Mp4 144p </option>
+                <option value="360">Mp4 360p </option>
+                <option value="480">Mp4 480p </option>
+                <option value="720">Mp4 720p </option>
+                <option value="1080">Mp4 1080p </option>
+                <option value="4k">Mp4 4k </option>
+                <option value="8k">Mp4 8k </option>
+              </select>
+              <br>
+              <a href="https://in15.y2mates.com"><button class="btn btn-success btn-block click-btn-down"
+                  type="submit">Download</button></a>
+            </div>
+          </div>
+        </div>
+        </form>
+        <div class="space"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-body-banner" style="margin-top: 2%; margin-bottom: 4%;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="space"></div>
+          <p align="right">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus
+            vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="space"></div>
+          <p align="left" style="font-size: 300%;"><b>
+              Unlimited Access <br>to Tracks.
+
+            </b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="section-footer" style="background: #252525; color: #fff;">
+
+
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-md-6">
+          <div class="space"></div>
+          <h5>Go Make Something Awesome</h5>
+          <h7>Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and
+            content creators. Made with and in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle,
+            Tampa, and Vergennes.</h7>
+        </div>
+
+        <div class="col-md-6">
+          <div class="space"></div>
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <input id="newsletter1" name="Email" type="text" class="form-control mr-sm-2" placeholder="Email address">
+              <a href="mailto:someone@example.com"><button class="btn btn-primary" type="button"
+                  id="margin">Subscribe</button></a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12" style="padding-top: 2rem;">
+          <center>
+            <hr noshade="#fff">
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          </center>
+          <div class="space"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
