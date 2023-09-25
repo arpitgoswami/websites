@@ -19,7 +19,7 @@ As you explore this repository, you'll witness a commitment to innovation, preci
 ### Application Links
 1. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-weather-app">Vanilla Weather Application</a>
 2. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-crypto-app">Vanilla Crypto Application</a>
-3. <a href="https://github.com/arpitgoswami/websites/tree/vanilla-image-app">Vanilla Image Application</a>
+3. <a href="image-search.arpitgoswami1.repl.co">Vanilla Image Application</a>
 
 Above are links that are connected to the internet, and all the listed websites and applications are online. All of them are hosted on a low-bandwidth cloud platform, which is DigitalOcean as well as al of these websites have been created using just simple HTML5, CSS3, and Vanilla JS without any external framework usage.
 
